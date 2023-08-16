@@ -1,0 +1,45 @@
+/* page.module.css */
+.headerContainer {
+  background-color: #242323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 60px;
+  
+  cursor: pointer;
+}
+
+.headerTitle {
+  margin-left: 75px;
+    margin-top: -57px;
+}
+
+.navRight {
+  display: flex;
+  align-items: center;
+}
+
+.navRight > * {
+  display: flex;
+  margin-left: 10px;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+  gap: 15px;
+
+}
+
+
+.navRight > *:hover {
+  color: #007bff;
+}
